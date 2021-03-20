@@ -1,0 +1,29 @@
+.debug{
+  background-color: rgba(10, 111, 40, 0.529);
+  min-height: 100px;
+  border: 1px solid red;
+}
+
+/* identità */
+
+#mc-top-bar{
+  background-color: darkorange;
+  z-index: 999;
+  top: 0px;
+}
+
+#jumbotron{
+  background-color: whitesmoke;
+  margin-top: 65px;
+}
+
+
+
+
+
+/* mc paddings */
+
+.mc-padding-30{
+  padding-left: 100px;
+  padding-right: 100px;
+}
