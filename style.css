@@ -1,29 +1,58 @@
 .debug{
-  background-color: rgba(10, 111, 40, 0.529);
-  min-height: 100px;
-  border: 1px solid red;
+  background-color: rgba(126, 230, 8, 0.63);
+  min-height: 60px;
+  border: 1px solid rgb(5, 167, 5);
 }
 
-/* identità */
+/* inizio nav */
 
-#mc-top-bar{
-  background-color: darkorange;
-  z-index: 999;
-  top: 0px;
+#mc-logotipo{
+  width: 200px;
 }
 
-#jumbotron{
-  background-color: whitesmoke;
-  margin-top: 65px;
+#mc-log-in{
+  padding-top: 15px;
 }
 
-
-
-
-
-/* mc paddings */
-
-.mc-padding-30{
-  padding-left: 100px;
-  padding-right: 100px;
+#mc-ham{
+  font-size: 30px;
+  padding-top: 15px;
 }
+
+.mc-navbar{
+  background-color: #FFFFFF;
+  height: 65px;
+}
+
+/* inizio jumbotron */
+
+.mc-jumbotron{
+  background-image: url(img/bg-banner-home.jpg);
+  background-size: cover;
+  min-height: 500px;
+}
+
+/* mc-paddings */
+
+.mc-double-pad-20{
+  padding-top: 20px;
+}
+
+.mc-double-pad-10{
+  padding-top: 10px;
+}
+
+/* mc-list */
+
+.mc-reset-list{
+  list-style: none;
+}
+.mc-rest-item{
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.mc-reset-link{
+  color: black;
+}
+

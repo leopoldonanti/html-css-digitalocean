@@ -4,113 +4,103 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digital Ocean</title>
-  <!-- fontawesome -->
-  <link
-  rel="stylesheet"
-  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-  crossorigin="anonymous"
-  />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
+  <!-- my style doc CSS -->
   <link rel="stylesheet" href="style.css">
-  
+  <title>Digital Ocean</title>
 </head>
 <body>
 
   <header>
-    <nav id="mc-top-bar" class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Brand</a>
-        </div>
-    
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Link</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="navbar-form navbar-left">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
+
+    <section>
+
+      <div class="mc-navbar navbar-fixed-top debug">
+
+        <div class="container">
+
+          <div class="row">
+            
+            <div class="col-xs-6 col-lg-3">
+              <img id="mc-logotipo" class="img-responsive mc-logotipo mc-double-pad-10" src="img/logo.png" alt="">
             </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-          </form>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Link</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
 
-    <section id="jumbotron">
-      <div class="container">
-        <div class="row mc-padding-30">
-          <div class="col-md-7 col-lg-8 debug">
-            <h1>The simplest cloud platform for developers & teams</h1>
+            <!-- col comprensiva del menu -->
+            <div class="col-xs-6 col-lg-9"> 
+              
+              <!-- hamburger menu -->
+            <div class="hidden-lg text-right">
+              <span id="mc-ham" class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+            </div>
+
+            <!-- list menu lg-->
+            <div class="row visible-lg">
+
+              <div class="col-lg-6 mc-double-pad-20">
+
+                <ul class="mc-reset-list">
+                  <li class="mc-rest-item"><a class="mc-reset-link" href="#">Products</a></li>
+                  <li class="mc-rest-item"><a class="mc-reset-link" href="#">Customers</a></li>
+                  <li class="mc-rest-item"><a class="mc-reset-link" href="#">Community</a></li>
+                  <li class="mc-rest-item"><a class="mc-reset-link" href="#">Pricing</a></li>
+                </ul>
+
+              </div>
+
+              <div class="col-lg-6 text-right">
+
+                <ul id="mc-log-in" class="mc-reset-list">
+                  <li class="mc-rest-item"><a class="mc-reset-link" href="#">Docs</a></li>
+                  <li class="mc-rest-item"><a class="mc-reset-link" href="#">Support</a></li>
+                  <li class="mc-rest-item"><a class="mc-reset-link" href="#">Login</a></li>
+                  <li class="mc-rest-item"><a class="btn" href="#">Sign Up</a></li>
+                </ul>
+
+              </div>
+
+            </div>        
 
           </div>
-          <div class="col-md-5 col-lg-4 debug">
 
-          </div>
         </div>
+
       </div>
 
     </section>
 
   </header>
-  
+
+  <main>
+    <section>
+       <!-- jumbotron -->
+    <div class="mc-jumbotron">
+
+      <div class="container">
+        
+        <div class="row">
+
+        </div>
+      </div> 
+    </div> 
 
 
 
 
+    </section>
+
+  </main>
+
+  <footer>
+
+  </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </body>
 </html>
