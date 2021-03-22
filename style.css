@@ -1,7 +1,7 @@
 .debug{
   background-color: rgba(126, 230, 8, 0.63);
   min-height: 60px;
-  border: 1px solid rgb(5, 167, 5);
+  border: 1px solid rgb(255, 123, 0);
 }
 
 /* inizio nav */
@@ -22,6 +22,9 @@
 .mc-navbar{
   background-color: #FFFFFF;
   height: 65px;
+  position: fixed;
+  z-index: 999;
+  top: 0px;
 }
 
 /* inizio jumbotron */
@@ -30,16 +33,70 @@
   background-image: url(img/bg-banner-home.jpg);
   background-size: cover;
   min-height: 500px;
+  margin-top: 65px;
+  padding-top: 80px;
+  
 }
+
+/* jumbo text-box */
+
+.mc-box-jumbo-tit{
+  width: 549px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.mc-box-jumbo-par{
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 20px;
+}
+
+.frame-jumbo-sign{
+  background-color: white;
+  border-radius: 10px;
+  height: 366px;
+  margin-bottom: 80px;
+}
+
+#mc-terms{
+  text-decoration: underline;
+}
+
+.mc-box-jumbo-sign{
+    
+}
+
+/* customer row */
+
+.logo-row{
+  width: 100%;
+}
+
+.box-logo{
+  width: 200px;
+}
+
 
 /* mc-paddings */
 
-.mc-double-pad-20{
+.mc-pad-20{
   padding-top: 20px;
 }
 
-.mc-double-pad-10{
+.mc-pad-10{
   padding-top: 10px;
+}
+
+/* mc-margins */
+
+.mc-double-mar-20{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mc-double-mar-10{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* mc-list */
@@ -47,7 +104,7 @@
 .mc-reset-list{
   list-style: none;
 }
-.mc-rest-item{
+.mc-reset-item{
   margin-left: 15px;
   display: inline-block;
 }
@@ -55,4 +112,19 @@
 .mc-reset-link{
   color: black;
 }
+
+/* text styles */
+
+.mc-titolo{
+  font-size: 50px;
+}
+
+.mc-paragrafo{
+  font-size: 23px;
+}
+
+.mc-gray-txt{
+  color: gray;
+}
+
 
