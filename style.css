@@ -4,6 +4,7 @@
   border: 1px solid rgb(255, 123, 0);
 }
 
+
 /* inizio nav */
 
 #mc-logotipo{
@@ -68,12 +69,23 @@
 
 /* customer row */
 
-.logo-row{
-  width: 100%;
+#customers{
+  background-color: #f3f5f9;
 }
 
-.box-logo{
-  width: 200px;
+/* deploy */
+
+.mc-paragrafo-dep{
+  font-size: 18px;
+}
+
+#deploy-list{
+  border-left: solid 1px gray;
+  padding-left: 10px;
+}
+
+.mc-dep-item{
+  margin-bottom: 15px;
 }
 
 
@@ -86,6 +98,16 @@
 .mc-pad-10{
   padding-top: 10px;
 }
+
+.mc-pad-lr{
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.mc-pad-l-60{
+  padding-left: 60px;
+}
+
 
 /* mc-margins */
 
@@ -125,6 +147,15 @@
 
 .mc-gray-txt{
   color: gray;
+}
+
+.mc-text-blu{
+  color: blue;
+  font-size: 15px;
+}
+
+.mc-glyphicon-size{
+  font-size: 11px;
 }
 
 
