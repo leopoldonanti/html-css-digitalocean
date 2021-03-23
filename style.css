@@ -4,6 +4,12 @@
   border: 1px solid rgb(255, 123, 0);
 }
 
+.debug-wrap{
+  background-color: rgb(230, 67, 8);
+  min-height: 60px;
+  border: 1px solid rgba(55, 255, 0, 0.945);
+}
+
 /* inizio nav */
 
 #mc-logotipo{
@@ -78,7 +84,7 @@
 }
 
 #deploy-list{
-  border-left: solid 2px rgb(208, 206, 206);
+  border-left: solid 1px rgb(183, 182, 183);
   padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -88,6 +94,40 @@
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: left;
+  color: rgb(166, 173, 179);
+}
+
+#deploy img{
+  width: 30px;
+}
+
+/* desgined */
+
+#designed{
+  background-color: #f3f5f9;
+}
+
+#designed img{
+  width: 50%;
+}
+
+.mc-frame-wrap{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#designed p{
+  font-size: 15px;
+  color: rgb(0, 0, 70);
+}
+
+.mc-btn-chevron{
+  border: none;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #f3f5f9;
+  font-weight: bolder;
 }
 
 /* mc-paddings */
