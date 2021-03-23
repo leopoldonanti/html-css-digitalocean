@@ -142,6 +142,10 @@
   color: white;
 }
 
+.mc-border-bottom-tab{
+  border-bottom: solid 1px white;
+}
+
 /* mc-paddings */
 
 .mc-pad-20{
